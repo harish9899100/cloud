@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>College Admission Form</title>
+</head>
+<body>
+  <h2>College Admission Form</h2>
+  <form action="#" method="post">
+    <label for="fname">Full Name:</label><br>
+    <input type="text" id="fname" name="fullname" required><br><br>
+
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <label for="course">Select Course:</label><br>
+    <select id="course" name="course" required>
+      <option value="">--Select--</option>
+      <option value="bca">BCA</option>
+      <option value="bsc">B.Sc</option>
+      <option value="bcom">B.Com</option>
+      <option value="ba">B.A</option>
+    </select><br><br>
+
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="4" cols="40" required></textarea><br><br>
+
+    <input type="submit" value="Submit Application">
+  </form>
+</body>
+</html>
